@@ -44,7 +44,7 @@ while exit1:
 
         list_float = []
         for list_num in list_numbers:
-        list_float.append(float(list_num))
+            list_float.append(float(list_num))
         num0 = list_float[0]
         num1 = list_float[1]
         num2 = list_float[2]
