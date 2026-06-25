@@ -1,4 +1,3 @@
-
 exit1 = True
 while exit1:
     user_choice = input(f'welcome to geometry helper \n please enter your choice: \n 1) calculator   \n 2) Triangle area calculator  \n 3) Square area calculator  \n 4) Circle area calculator  \n 5) Pythagoras triad checker  \n 6) Exit  \n right here your choosen number: ')
@@ -27,7 +26,10 @@ while exit1:
             case _:
                 print("Invalid operator")
     elif user_choice == "2":
-        pass
+        num_height = float(input("give me num for height "))
+        num_base = float(input("give me num for base "))
+        calculation = num_base * num_height / 2
+        print("the triangle area is:",(calculation))
     elif user_choice == "3":
         given_square_side=float(input("please enter your choosen square side: "))
         print("the square area is",given_square_side * given_square_side)
@@ -40,4 +42,5 @@ while exit1:
     elif user_choice == "6":
         print("goodbye")
         exit1 = False
+
 
