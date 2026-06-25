@@ -5,7 +5,6 @@ while exit1:
     if user_choice == "1":
         pass
     elif user_choice == "2":
-        print("2")
         pass
     elif user_choice == "3":
         given_square_side=float(input("please enter your choosen square side: "))
