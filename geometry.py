@@ -1,7 +1,7 @@
 
 exit1 = True
 while exit1:
-    user_choice = input(f'welcome to geometry helper \n please enter your choice: \n 1) calculator  : \n 2) Triangle area calculator:  \n 3) Square area calculator:  \n 4) Circle area calculator:  \n 5) Pythagoras triad checker : \n 6) Exit : \n ')
+    user_choice = input(f'welcome to geometry helper \n please enter your choice: \n 1) calculator   \n 2) Triangle area calculator  \n 3) Square area calculator  \n 4) Circle area calculator  \n 5) Pythagoras triad checker  \n 6) Exit  \n right here your choosen number: ')
     if user_choice == "1":
         pass
     elif user_choice == "2":
